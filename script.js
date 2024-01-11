@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  //   window.location.href = "https://www.ptoszek.pl/";
+  window.location.href = "https://www.ptoszek.pl/";
   fetch("https://api.ipify.org?format=json")
     .then((response) => response.json())
     .then((data) => {
